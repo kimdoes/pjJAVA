@@ -14,11 +14,8 @@
 
 
 public class classify {
-
     void main(String[] args){
-
         System.out.print("Hello, World!");
-
     }
 }
 
