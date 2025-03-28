@@ -16,18 +16,22 @@
 public class classify {
 
     void main(String[] args){
-
+    
         System.out.print("Hello, World!");
-
+        
     }
+    
 }
 
 * public : 누구든지 접근 가능 / void : 리턴 타입, 리턴값이 없음 / String[] args : 메서드의 인자. 문자열의 배열이 전달되어야하고 그 배열에 'args'라는 이름이 붙음. 아직 무슨 말인지 모름.
 
 * System.out.print -> 파이썬에서의 print와 같다.
 * 파이썬보다 약간 오래걸리는 것 같기도하고 디버그 과정에서 그런 것 같다. 
+<<<<<<< HEAD
  
 * 프로그램의 실행은 JVM에 "프로그램의 클래스를 불러오고 main 메서드를 모든 코드가 실행될 때까지 실행하라"라는 명령을 내리는 것.
 
  * C처럼 i++라는 명령문을 사용할 수 있다.
  * 세미콜론 주의!!
+=======
+>>>>>>> a25937b5c6288a7e4d7711922d4ec1290c1e7357
