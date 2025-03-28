@@ -10,7 +10,7 @@
 
 타입 유형은
 int - 정수형
-boolean - 불리언형 (True 또는 False만 Value로 가짐짐)
+boolean - 불리언형 (True 또는 False만 Value로 가짐)
 
 
 출력은
