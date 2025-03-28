@@ -5,7 +5,7 @@
 코드 구조
 * 자바 소스파일에는 클래스를 한 개씩 정의
 * 클래스는 프로그램의 한 부분을 나타냄. 작은 프로그램의 경우 단일 클래스가 모든 메서드를 진행하기도 함
-    * public class "클래스스이름" {}
+    * public class "클래스이름" {}
 
 * 클래스 내부에는 하나 이상의 메서드가 들어감 / 소스파일 하나 당 main 메서드가 하나씩 꼭 있어야 함.
     * void "메서드이름" {}
@@ -14,8 +14,11 @@
 
 
 public class classify {
+
     void main(String[] args){
+
         System.out.print("Hello, World!");
+
     }
 }
 
