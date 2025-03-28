@@ -14,9 +14,13 @@
 
 
 public class classify {
+
     void main(String[] args){
+    
         System.out.print("Hello, World!");
+        
     }
+    
 }
 
 * public : 누구든지 접근 가능 / void : 리턴 타입, 리턴값이 없음 / String[] args : 메서드의 인자. 문자열의 배열이 전달되어야하고 그 배열에 'args'라는 이름이 붙음. 아직 무슨 말인지 모름.
