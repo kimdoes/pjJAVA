@@ -15,6 +15,7 @@ main의 용도 : 클래스 테스트, 자바 애플리케이션 시작
 
 main 벗어나기 예제 - 숫자 맞히기 게임
 클래스 : GuessGame / Player / GamLauncher
+-->public 클래스는 한 코드 당 한 개만!
 
 GameLauncher 클래스에서 시작 (main 메서드 포함)
 main 메서드는 GuessGame의 객체를 만ㄷ름, 객체의 startgame 메서드 호출

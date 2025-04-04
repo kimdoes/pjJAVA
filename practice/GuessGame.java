@@ -55,25 +55,25 @@ public class GuessGame {
                 System.out.println("게임 끝.");
                 break;
             } else {
-                System.out.println("다시 시도해야 합니다.")
+                System.out.println("다시 시도해야 합니다.");
             }
         }
     
     }
+}
 
-    public class Player {
-        int number = 0;
+class Player {
+    int number = 0;
 
-        public void guess() {
-            number = (int) (Math.random() * 10);
-            System.out.println("추측한 숫자: " + number);
-        }
+    public void guess() {
+        number = (int) (Math.random() * 10);
+        System.out.println("추측한 숫자: " + number);
     }
+}
 
-    public class GameLauncher {
-        public static void main(String[] args) {
-            GuessGame game = new GuessGame();
-            game.startGame();
-        }
+class GameLauncher {
+    public static void main(String[] args) {
+        GuessGame game = new GuessGame();
+        game.startGame();
     }
 }
