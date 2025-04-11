@@ -19,3 +19,28 @@ main 벗어나기 예제 - 숫자 맞히기 게임
 
 GameLauncher 클래스에서 시작 (main 메서드 포함)
 main 메서드는 GuessGame의 객체를 만ㄷ름, 객체의 startgame 메서드 호출
+
+
+
+자바의 최종모습은
+클래스 여러 개가 모여 있는 것. 그 중에 하나는 main 메서드. 그 메서드를 통해 프로그램을 시작하게 됨.
+
+
+
+public class Dog {
+    // 속성 (필드, 멤버 변수)
+    String name;
+    int age;
+
+    // 행동 (메서드)
+    void bark() {
+        System.out.println(name + "가 멍멍 짖어요!");
+    }
+
+    void introduce() {
+        System.out.println("안녕! 나는 " + name + ", " + age + "살이야!");
+    }
+}
+
+Dog mydog = new Dog();
+-->Dog 클래스에서 객체를 만듦.
