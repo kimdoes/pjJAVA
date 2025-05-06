@@ -1,9 +1,13 @@
 package practice;
 
-class Echo{
-    int count = 0;
+class Dogs{
+    String name;
+    int age;
 
-    void hello() {
-        System.out.println("helloooo...");
+    public void bark(){
+    }
+
+    public void eat(){
+
     }
 }

@@ -122,3 +122,79 @@ public class intadd {
 }
 
 * return 값이 있으려면 void가 아닌 int, String 등을 써야함
+
+# 4. 배열선언
+- main.java (EchoTestDrive.java)
+package practice;
+
+public class EchoTestDrive {
+    public static void main(String[] args) {
+        Dog[] pets;
+        pets = new Dog[3];
+
+        pets[0] = new Dog();
+        pets[1] = new Dog();
+
+        pets[0].name = "Fido";
+        pets[0].age = 7;
+        pets[1].name = "Dodo";
+        pets[1].age = 6;
+
+        System.out.println(pets[0].name);
+        System.out.println(pets[1].name);
+    }
+}
+
+
+- Code mag.java
+package practice;
+
+class Dog{
+    String name;
+    int age;
+    
+    public void bark(){
+    }
+
+    public void eat(){
+
+    }
+}
+
+* 배열에 . 을 사용하여 인스턴스에 접근할 수 있다.
+* pets[0]에는 인스턴스스가 여러 개 저장되어 . 을 사용하여 각 인스턴스에 접근해야한다.
+
+- 한 파일에 들어가도록 수정
+- main.java (Dog.java)
+
+package practice;
+
+public class Dog {
+    String name;
+    int age;
+
+    public static void main(String[] args) {
+        Dog[] pets;
+        pets = new Dog[3];
+
+        pets[0] = new Dog();
+        pets[1] = new Dog();
+
+        pets[0].name = "Fido";
+        pets[0].age = 7;
+        pets[1].name = "Dodo";
+        pets[1].age = 6;
+
+        System.out.println(pets[0].name);
+        System.out.println(pets[1].name);
+
+        Dog dogin = new Dog();
+        dogin.name = "hai";
+        dogin.age = 8;
+        dogin.information();
+    }
+
+    public void information(){
+        System.out.println(name + " 이의 나이는 " + age +"살 입니다.");
+    }
+}
