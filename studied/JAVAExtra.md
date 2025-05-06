@@ -62,3 +62,63 @@ public class ints {
 }
 
 ### 실행결과 : practice.ints@4517d9a3
+
+수정하기
+- main.java
+
+class littlepractice{
+    public static void main(String[] args){
+        ints a = new ints();
+
+        a.randnum();
+        System.out.println(a.num);
+        System.out.println(a.num2);
+    }
+
+}
+
+(ints.java는 동일)
+* 클래스에서 반환하는 요소가 2개일 경우 (클래스를 참조하는 변수명).(접근할 인스턴스 명) 으로 각 객체에 접근할 수 있다.
+
+
+# 3. 클래스 3개 활용해보기
+- main.java
+package practice;
+
+class mainprogress{
+    public static void main(String[] args){
+        ints nums = new ints();
+        intadd add = new intadd();
+        int rst;
+
+        int n1 = nums.randnum();
+        int n2 = nums.randnum();
+
+        rst = add.inadd(n1,n2);
+        System.out.println(n1 + " " + n2);
+        System.out.println(rst);
+    }
+}
+
+- ints.java
+package practice;
+
+public class ints {
+    int num;
+
+    public int randnum() {
+        num = (int) (Math.random() * 100);
+        return num;
+    }
+}
+
+- intadd.java
+package practice;
+
+public class intadd {
+    public int inadd (int num1, int num2){
+        return num1 + num2;
+    }
+}
+
+* return 값이 있으려면 void가 아닌 int, String 등을 써야함
