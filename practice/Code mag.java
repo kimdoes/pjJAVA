@@ -1,13 +1,17 @@
 package practice;
 
-class Dogs{
-    String name;
-    int age;
+class people{
+    int count = 0;
 
-    public void bark(){
+    public int reset(){
+        return count = 0;
     }
 
-    public void eat(){
+    public int increment(int num){
+        return num = num + 1;
+    }
 
+    public void get(int number){
+        System.out.println(number);
     }
 }
